@@ -1,3 +1,4 @@
+//METODOS PARA ENCONTRAR UN VALOR
 let cadena = "cadena de prueba prueba";
 //igual que let cadena = new String("cadena de prueba");
 //se crea un nuevo objeto String
