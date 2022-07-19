@@ -14,3 +14,7 @@ rangoEdad.setAttribute("type", "");
 
 //Quita el atributo type del elemento.
 rangoEdad.removeAttribute("type");
+
+//element.setAttribute
+//element.removeAttribute
+//element.getAttribute
