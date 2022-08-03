@@ -55,3 +55,9 @@ console.log(h2_antiguo.nextElementSibling); //h4
 console.log(h2_antiguo.previousElementSibling); //null porque no tiene un hermano antes, tiene un padre (div)
 
 
+
+
+//NODOS - extra
+//closest() - Nos selecciona el elemento ascendente mas cercano
+const miDiv = document.querySelector(".div-3");
+console.log(miDiv.closest(".div"));//Div 2
