@@ -9,7 +9,7 @@ h2_nuevo.innerHTML="H2 NUEVO";
 
 const h2_antiguo = document.querySelector(".h2");
 
-contenedor.replaceChild(h2_nuevo, h2_antiguo); 
+// contenedor.replaceChild(h2_nuevo, h2_antiguo); 
 
 
 
@@ -41,16 +41,17 @@ console.log(res);
 
 //PROPIEDADES DE SIBLINGS
 //nextSibling
-
+console.log(h2_antiguo.nextSibling); //text (el espacio en blanco entre tags)
 
 //previousSibling
+console.log(h2_antiguo.previousSibling); //text (el espacio en blanco entre tags)
 
 
 //nextElementSibling
-
+console.log(h2_antiguo.nextElementSibling); //h4
 
 
 //previousElementSibling
-
+console.log(h2_antiguo.previousElementSibling); //null porque no tiene un hermano antes, tiene un padre (div)
 
 
